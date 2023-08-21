@@ -27,7 +27,7 @@ function App() {
     getData();
   }, []);
   return (
-    <div className="App" style={{backgroundcolor:"blue"}}>
+    <div className="App" style={{backgroundcolor:"pink"}}>
       <Nav />
       <Routes>
         <Route path="/" element={<Feed data={data} />} />
